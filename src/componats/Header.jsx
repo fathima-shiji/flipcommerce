@@ -1,3 +1,5 @@
+import NavBar from "./NavBar";
+
 import "./header.css"
 
 const Header = () => {
@@ -7,6 +9,7 @@ const Header = () => {
                 <div className="logo">
                     <a href="/">FLIXX</a>
                 </div>
+                <NavBar />
             </div>
 
         </header>

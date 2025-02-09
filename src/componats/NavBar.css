@@ -1,0 +1,17 @@
+.main-nav{
+    display: flex;
+}
+
+.main-nav li{
+    margin-left: 20px;
+}
+.main-nav a{
+    font-size: 16px;
+}
+.main-nav li a.active{
+    color: yellow;
+    font-weight: 700;
+}
+.main-nav li a:hover{
+    color: #F1C41c;
+}
