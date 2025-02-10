@@ -1,0 +1,25 @@
+
+.movie-card {
+    text-align: center;
+    font-size: 18px;
+    background: #020d18;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.movie-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .movie-card .rating {
+    padding: 10px;
+
+
+  }
+  .movie-card .rating .star{
+    margin-right: 5px;
+  }
