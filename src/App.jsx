@@ -1,11 +1,11 @@
-
+import NowPlaying from "./componats/NowPlaying";
 import Header from "./componats/Header";
 
 const App = () => {
   return (
     <div>
       <Header/>
-      <div>Now Playing</div>
+      <NowPlaying />
       <div>Search</div>
       <div>Popular Movies</div>
       <div>footer</div>
